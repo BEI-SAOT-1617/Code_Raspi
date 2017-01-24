@@ -1,8 +1,5 @@
-# Code_Raspi
+# codeplan
 
-planManager testé avec le Watchdog
+Pour lancer le truc 
 
-// Pour lancer :
-// g++ main_planManager.cpp attitudeController.cpp cameraController.cpp planManager.cpp plan.cpp genericInstruction.cpp statusManager.cpp GPIO.cpp Watchdog.cpp -o exec 
-
-// Pour changer la date = sudo date --set "xx:xx:xx"
+g++ main_test.cpp attitudeController.cpp cameraController.cpp planManager.cpp plan.cpp genericInstruction.cpp statusManager.cpp -o exec 
